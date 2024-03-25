@@ -5,7 +5,6 @@ fetch("products.json")
     renderProducts(data);
   })
   .catch((error) => {
-    alert("Error Product Fetching... ", error);
     console.log(error);
   });
 

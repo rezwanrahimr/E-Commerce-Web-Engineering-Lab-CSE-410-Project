@@ -1,0 +1,305 @@
+/* 
+----------------
+Template Name: Smartshop.com
+Author: _____
+Author Email: mahadi.web09@gmail.com
+Version: _____
+----------------
+
+----------------
+Table of Content
+----------------
+1.ABOUT PART
+2.BRAND PART 
+3.TEAM PART
+4.BENEFIT PART
+5.FOOTER PART 
+
+*/
+
+/*====================
+    COMMON CSS
+=====================*/
+p {
+  font-family: "Lato", sans-serif;
+  color: #555555;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  color: #353535;
+}
+body {
+  margin: 0px;
+}
+
+.title_text h2 {
+  font-size: 24px;
+  font-weight: 900;
+  padding-bottom: 14px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.title_text h2::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 68px;
+  background: #121212;
+  top: 43px;
+  left: 49%;
+  transform: translateX(-50%);
+}
+
+.title_text p {
+  font-style: italic;
+  padding-top: 17px;
+  font-weight: 300;
+}
+
+/*====================
+   ABOUT PART
+=====================*/
+#about_part {
+  padding: 100px;
+  background: #f6f6f6;
+}
+#about_part .abt_pic {
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+#about_part .abt_pic img {
+  width: 100%;
+  transition: all 0.2s linear;
+}
+#about_part .abt_pic img:hover {
+  width: 102%;
+  transition: all 0.2s linear;
+}
+#about_part .abt_info {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+#about_part .about_text .text {
+  margin-bottom: 65px;
+}
+#about_part .about_text .text p {
+  font-size: 14px;
+  padding: 1px 24px;
+}
+
+#about_part .about_text .abt_btn a {
+  font-size: 13px;
+  padding: 16px 31px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  border-radius: 3px;
+  transition: all 0.2s linear;
+  text-transform: uppercase;
+  margin-top: 26px;
+  color: #353535;
+  background: transparent;
+  border: 1px solid #121212;
+  text-decoration: none;
+}
+
+#about_part .about_text .abt_btn a:hover {
+  background: #8ec448;
+  border: 1px solid #8ec448;
+  color: #fff;
+}
+/*====================
+   BRAND PART
+=====================*/
+#brand_part {
+  padding: 128px 0;
+  height: 100px;
+}
+#brand_part .brand1 {
+  float: left;
+  width: 20%;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+#brand_part .brand2 {
+  float: left;
+  width: 20%;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+#brand_part .brand3 {
+  float: left;
+  width: 20%;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+#brand_part .brand4 {
+  float: left;
+  width: 20%;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+#brand_part .brand5 {
+  float: left;
+  width: 20%;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+#brand_part .brand1:hover {
+  width: 19%;
+  transition: all 0.2s linear;
+}
+#brand_part .brand2:hover {
+  width: 19%;
+  transition: all 0.2s linear;
+}
+#brand_part .brand3:hover {
+  width: 19%;
+  transition: all 0.2s linear;
+}
+
+#brand_part .brand4:hover {
+  width: 19%;
+  transition: all 0.2s linear;
+}
+#brand_part .brand5:hover {
+  width: 19%;
+  transition: all 0.2s linear;
+}
+
+/*====================
+   TEAM PART
+=====================*/
+#team_part {
+  padding: 100px;
+  background: #f6f6f6;
+
+  height: 580px;
+}
+
+#team_part .title_text {
+  text-align: center;
+}
+
+#team_part .team_widget1 {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 30%;
+  margin: 0px 55px 0px 0px;
+}
+#team_part .team_widget2 {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 30%;
+  margin: 0px 55px 0px 0px;
+}
+#team_part .team_widget3 {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 30%;
+}
+
+#team_part .team_pic {
+  border: 1px solid #1c1c1b;
+}
+#team_part .team_widget .team_pic img {
+  width: 100%;
+}
+#team_part .team_widget .team_overlay {
+  position: absolute;
+  width: 100%;
+  height: 130px;
+  bottom: 0;
+  left: 0;
+  background: #000000bf;
+  transition: all 0.3s linear;
+}
+#team_part .team_widget:hover > .team_overlay {
+  height: 100%;
+}
+
+#team_part .team_widget .team_overlay .team_text {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  transition: all 0.3s linear;
+  text-align: center;
+}
+
+#team_part .team_widget:hover > .team_overlay .team_text {
+  top: 50%;
+}
+
+#team_part .team_widget .team_overlay .team_text h4 {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#team_part .team_widget .team_overlay .team_text h5 {
+  font-size: 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-bottom: 85px;
+  transition: all 1s linear;
+}
+
+#team_part .team_widget:hover > .team_overlay .team_text h5 {
+  padding-bottom: 8px;
+}
+
+/*====================
+   BENEFIT PART
+=====================*/
+
+#benefit_part {
+  padding: 100px;
+}
+#benefit_part .title_text {
+  text-align: center;
+}
+
+#benefit_part .title_text p {
+  margin-right: 30px;
+}
+#benefit_part .benefit_info .binfo_left {
+  float: left;
+  width: 50%;
+}
+
+/*====================
+  FOOTER PART
+=====================*/
+#footer_part {
+  background: url(../images/footer.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+#footer_part .copyright {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8),
+    rgba(5, 3, 20, 0.8)
+  );
+  width: 100%;
+  padding: 24px 0;
+}
+
+/*============================================================================================================================================
+                                                   Smart shop project css code is END
+=============================================================================================================================================*/

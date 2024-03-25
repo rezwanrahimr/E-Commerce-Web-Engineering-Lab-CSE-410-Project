@@ -26,7 +26,6 @@ fetch("products.json")
     renderProducts(data.slice(0, 15));
   })
   .catch((error) => {
-    alert("Error Product Fetching... ", error);
     console.log(error);
   });
 
