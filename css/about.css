@@ -120,8 +120,8 @@ body {
    BRAND PART
 =====================*/
 #brand_part {
-  padding: 128px 0;
-  height: 100px;
+  padding: 80px 0 83px 0;
+  /* height: 100px; */
 }
 #brand_part .brand1 {
   float: left;
@@ -218,10 +218,11 @@ body {
 }
 #team_part .team_widget .team_overlay {
   position: absolute;
-  width: 100%;
+  width: 93%;
   height: 130px;
   bottom: 0;
   left: 0;
+  margin-left: 12px;
   background: #000000bf;
   transition: all 0.3s linear;
 }
